@@ -1,0 +1,558 @@
+@import "vars"
+@import "fonts"
+
+body 
+	font-family: $nun
+	font-size: 16px
+	font-weight: 400
+.logo 
+	display: flex 
+	justify-content: center
+	border-bottom: 1px solid $grey
+	padding: 30px 0 30px 0
+	width: 200px
+	margin: 0 auto
+	margin-bottom: 25px
+	img 
+		height: 130px
+		width: 130px
+.menu 
+	margin-bottom: 30px
+	margin-right: 70px
+	margin-left: 70px
+	ul 
+		list-style: none
+		display: flex
+		justify-content: space-between
+		padding-left: 0
+	a 
+		color: #000
+		text-decoration: none
+.welcom 
+	background: url(../img/bg.jpg)
+	min-height: 500px
+	padding: 70px 0
+	background-repeat: no-repeat
+	background-size: cover
+	
+	
+	.row 
+		
+	.col-md-7 
+
+	.text-block 
+		background: #fff
+		// margin-right: 70px
+		margin-left: 70px
+		height: 360px
+		text-align: center
+		display: flex
+		align-items: center
+		justify-content: center
+		.title 
+			color: $pinc
+			font-weight: 900
+			font-size: 26px
+			font-family: $nun
+			margin-bottom: 10px
+		p 
+			max-width: 55%
+			margin: 10px auto
+			font-size: 14px
+		.wrapper 
+.form-box 
+	background: $pinc
+	height: 360px
+	margin-left: 70px
+	margin-right: 70px
+	padding: 25px
+	color: #fff
+	.title
+		font-size: 24px
+		font-weight: 900
+	p 
+		font-size: 14px
+		letter-spacing: 1px
+		margin-bottom: 0
+	input 
+		width: 100%
+		border: none
+		height: 43px
+		border-radius: 5px
+		outline: none
+		padding: 10px
+	label 
+		font-size: 14px
+		margin-bottom: 0
+		margin-top: 10px
+		font-family: $oxy
+		font-weight: 700
+.line 
+	width: 200px
+	height: 1px
+	background: $grey
+	margin: 80px auto
+.blog
+	a 
+		
+		text-decoration: none
+	.name-category 
+		text-align: center
+		font-family: $oxy
+		padding: 15px 0
+		position: relative
+		z-index: 1
+		margin-bottom: 30px
+		display: block
+		color: #000
+	.name-category:before 
+		content: ""
+		background: #e6cddd
+		height: 60px
+		width: 60px
+		position: absolute
+		z-index: -1
+		border-radius: 50%
+		left: 50%
+		top: 0
+
+		transform: translate(-50%)
+	img 
+		width: 100%
+.single-post-pref 
+	margin: 0 10px
+	.post-title 
+		font-size: 26px
+		color: $pinc
+		font-weight: 600
+		font-family: $lato
+		font-weight: 900
+		margin-top: 20px
+	.text 
+		font-family: $oxy 
+		font-size: 14px
+		padding: 10px 0
+		color: #000
+.date 
+	font-family: $oxy
+	font-style: italic
+	font-size: 14px
+	color: #e22a50
+.text-about-autor 
+	text-align: center
+	font-size: 14px
+	font-family: $oxy
+.about-author
+	
+	text-align: center
+	display: block
+	margin: 0 auto
+	font-size: 26px
+	color: $pinc 
+	font-family: $lato
+	font-weight: 900
+	margin-top: 50px
+	margin-bottom: 80px
+.about-author:hover 
+	color: $pinc
+footer 
+	height: 120px
+	background: #e22a50
+	display: flex
+	align-items: center
+	position: relative
+	.container
+		display: flex
+		justify-content: space-between
+		align-items: center
+		p 
+			color: #fff
+			font-size: 14px
+			margin-bottom: 0
+			a 
+				color: #fff
+				text-decoration: none
+	.btn-sign-up 
+		background: #fff
+		border: none
+		padding: 5px 70px
+		a 
+			font-size: 26px 
+			font-family: $lato 
+			font-weight: 900
+			color: $pinc
+			text-decoration: none
+#top 
+	
+	a 
+		height: 45px 
+		width: 60px
+		background: $pinc
+		position: absolute
+		right: 60px
+		top: -45px
+		border-radius: 5px
+		
+	a:before
+		content: "\ea50"
+		font-family: $icon 
+		position: absolute
+		top: 0
+		left: 50%
+		transform: translate(-50%)
+		color: #fff
+		font-size: 40px
+.btn_menu 
+
+	cursor: pointer
+
+	.btn_row 
+		width: 30px
+		height: 4px 
+		background: $pinc 
+		display: block
+		margin-bottom: 3px
+.btn_menu.active 
+	.btn_row:nth-child(2)
+		display: none
+	.btn_row:nth-child(1)
+		transform: rotate(45deg)
+	.btn_row:nth-child(3)
+		transform: rotate(-45deg)
+		margin-top: -7px
+.menu .btn_menu 
+	display: none
+	
+.top-single-post 
+	height: 120px
+	background: url('../img/category-bg.jpg')
+	position: relative
+	color: #fff
+	.owerlay
+		position: absolute
+		top: 0
+		left: 0 
+		height: 100%
+		width: 100%
+		background-color: rgba( 149, 38, 107, 0.7) 
+	.container 
+		position: relative
+		display: flex
+		justify-content: space-between
+		padding-top: 30px
+		.links 
+			padding-right: 70px
+			a 
+				color: #fff
+				text-decoration: none
+				font-size: 14px
+				font-weight: 600
+
+			a:after 
+				content: '|'
+				padding-left: 15px
+				padding-right: 10px
+			a:last-child:after 
+				display: none
+		.title 
+			text-transform: upercase
+			font-weight: 600
+			font-size: 14px
+.article 
+	padding-top: 30px
+	padding-bottom: 50px
+	.search 
+		width: 100%
+		height: 45px
+		position: relative
+
+	input 
+		width: 100%
+		height: 100%
+		border-radius: 3px
+		border: 2px solid $grey
+		
+		outline: none
+		padding: 3px 10px
+	.search:after 
+		position: absolute
+		content: "\e900"
+		font-family: $icon
+		background: $grey
+		height: 100%
+		width: 50px
+		right: 0px
+		top: 0
+		padding: 8px 13px
+		color: #666666 
+		font-weight: bold
+		font-size: 20px
+		cursor: pointer
+		border-radius: 3px
+	.col-lg-3 
+		.title 
+			color: $pinc
+			font-size: 26px 
+			font-family: $lato
+			font-weight: 900
+			text-align: center
+			padding: 40px 0 0 0
+		.list 
+			display: flex
+			flex-direction: column
+
+
+			
+			a 
+				color: #b385a5
+				font-family: $oxy
+				width: 100%
+				border-bottom: 1px solid $grey
+				padding: 15px 0
+				text-decoration: none	
+				position: relative
+			a:before 
+				content: '>'
+				padding-right: 20px
+				padding-left: 40px
+				left: 0
+
+.categry-link 
+	width: 100%
+	text-align: center
+	background: #fbe9e6
+	margin: 50px auto
+	height: 55px
+	display: flex
+	align-items: center
+	justify-content: center
+	position: relative
+	
+	cursor: pointer
+	a
+		color: $pinc 
+		font-family: $oxy
+		text-decoration: none
+		position: relative
+		z-index: 1
+	a:before 
+		content: ""
+		background-color: rgba( 129, 36, 107, 0.16)
+		height: 80px
+		width: 80px
+		position: absolute
+		z-index: -1
+		border-radius: 50%
+		left: 50%
+		top: -29px
+
+		transform: translate(-50%)
+.recomend-post 
+	margin-top: 80px
+	.tab_item
+		display: none
+	.tab_item:first-child
+		display: block
+	.tab_item.active 
+		display: block
+	.tab_item .post 
+		display: flex
+		align-items: center
+		padding: 10px 15px
+		border: 2px solid $grey
+		border-bottom: 1px solid $grey
+		border-top: 1px solid $grey
+
+		img 
+			width: 80px 
+			height: 75px
+		.title-post 
+			font-family: $oxy
+		.text 
+			padding-left: 15px
+		.data 
+			font-size: 12px 
+			font-style: italic
+			font-family: $oxy
+	.tab_content
+		width: 100%
+
+		
+		
+		border-radius: 4px
+
+.tab_item .post:first-child
+	border-top: 2px solid $grey
+.tab_item .post:last-child
+	border-bottom: 2px solid $grey
+.tabs
+	border-top: 2px solid $grey
+	border-left: 2px solid $grey
+	border-right: 2px solid $grey
+	width: 75%
+	display: flex
+	
+	text-align: center
+	.tab 
+		width: 50%
+		text-align: center
+		display: block
+		padding: 10px 10px
+		cursor: pointer
+	.tab.active 
+		background: #e22a50
+		color: #fff
+.tags 
+	.title-tags
+		color: #666666
+		font-size: 26px 
+		font-family: $lato
+		font-weight: 900
+		text-align: center
+		padding: 40px 0 10px 0
+.tag-list
+	display: flex 
+	justify-content: center
+	flex-wrap: wrap
+	a 
+		color: #000
+		padding: 5px 15px 
+		margin: 2px
+		border: 2px solid $grey
+		text-decoration: none
+.pagi-page 
+	width: 100%
+	display: flex
+	justify-content: space-between
+	border-bottom: 1px solid $grey
+	padding-bottom: 20px
+	margin-bottom: 40px
+	a 
+		color: #666666
+		font-size: 14px 
+		font-family: $oxy
+		font-style: italic
+		text-decoration: none
+	a:first-child:before 
+		content: '<'
+		padding-right: 10px
+	a:last-child:after 
+		content: '>'
+		padding-left: 10px
+.article 
+	.col-lg-9 
+		img 
+			width: 100%
+		.title 
+			font-size: 26px 
+			font-family: $nun
+			font-weight: 800
+			color: $pinc
+			padding: 40px 0
+		p 
+			font-size: 14px 
+			font-family: $oxy
+			line-height: 2
+		.text 
+			color: red
+			float: right
+			width: 40%
+			font-size: 23px 
+			color: #e22a50
+			padding-left: 50px
+
+.article-properties 
+	border-top: 1px solid $grey
+	border-bottom: 1px solid $grey
+	padding: 5px 0
+	margin-top: 40px
+	a 
+		color: #e22a50
+		font-family: $oxy
+		font-size: 14px
+		font-style: italic
+		text-decoration: none
+	a:after 
+		content: '|'
+		padding-left: 10px
+		padding-right: 5px
+	a:last-child:after
+		display: none
+.share 
+	width: 100%
+	display: flex
+	justify-content: center
+	background: $grey
+	padding: 10px 0
+	font-size: 14px
+	margin: 30px 0
+	font-family: $oxy
+	color: #666666
+	a 
+		padding: 0 7px
+		font-size: 14px 
+		font-family: $oxy
+		color: #666666
+		text-decoration: none
+		cursor: pointer
+	a:first-child 
+		padding-left: 15px
+
+
+
+.article-list .col-lg-9 .title
+	padding: 14px 0
+	padding-bottom: 0
+.article-list .col-lg-9
+	p 
+		line-height: 1.5
+		color: #000
+		text-decoration: none
+
+.post-pr:hover 
+	text-decoration: none
+.post-pr
+	text-decoration: none
+.article-properties-list
+	margin-top: 0
+	margin-bottom: 50px
+	display: flex
+	justify-content: space-between
+
+.post-pr:after 
+	display: none
+.category-header 
+	background: #e22a50
+	background-repeat: no-repeat
+	background-size: cover
+.category-header
+	padding: 0px 0px
+	min-height: 360px
+	margin-bottom: 40px
+	.col-md-7 
+		display: flex
+		flex-direction: column
+		justify-content: center
+
+	.title-cat 
+		font-size: 66px
+		color: #fff
+		line-height: 1
+		text-align: center
+	p 
+		text-align: center
+		color: #fff
+		font-size: 14px
+		padding-top: 10px
+
+		
+
+
+
+
+
+
+
+
+
+@import "media"

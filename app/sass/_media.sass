@@ -1,0 +1,199 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.form-box 
+		margin-left: 0
+	.article .col-md-9 p 
+		line-height: 1.5
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.menu 
+		margin-right: 0
+		margin-left: 0
+	.form-box 
+		margin-right: 0
+	.welcom .text-block 
+		margin-left: 0
+	footer .btn-sign-up 
+		padding: 5px 20px
+	footer .btn-sign-up a 
+		font-size: 18px
+	footer p 
+		max-width: 50%
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.header .container 
+		display: flex
+		position: relative
+		
+
+	.logo 
+		border-bottom: none
+		
+		margin: 0 0 
+
+		
+	.menu ul 
+		display: none !important 
+		position: absolute
+		width: 100%
+		left: 0
+		top: 180px
+		background: #fff
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		z-index: 999
+		padding-bottom: 100px
+		li 
+			margin: 15px 0
+
+		
+	.menu ul.active 
+		display: flex !important
+		
+
+
+	.menu .btn_menu
+		position: absolute
+		right: 0
+		top: 50%
+		transform: translate(-50%, -50%)
+		display: block
+	.welcom .text-block 
+		margin-bottom: 50px
+	.single-post-pref 
+		display: flex
+		flex-direction: column
+		
+	.blog .col-md-4 
+		margin-bottom: 50px
+	.line 
+		margin: 40px auto
+	footer p 
+		max-width: 70%
+	#top a 
+		height: 30px 
+		width: 40px
+		top: -30px
+		right: 15px
+	#top a:before 
+		font-size: 30px
+	.article .col-lg-9 .text 
+		width: 100%
+		padding-left: 0
+		margin: 15px 0
+	.top-single-post .container 
+		flex-direction: column
+		align-items: center
+		height: 100%
+		justify-content: center
+		padding-top: 0
+
+	.top-single-post .container .links 
+		padding-right: 0
+	.category-header 
+		padding: 50px 0
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 495px)
+	/**/
+	footer .container 
+		flex-direction: column
+	footer .container 
+		p 
+			order: 2
+			text-align: center
+			font-size: 12px
+	footer .btn-sign-up 
+		order: 1
+		margin-bottom: 15px
+	footer
+		height: 150px
+	.logo img 
+		height: 100px 
+		width: 100px
+	.logo 
+		width: 100px
+		padding: 15px 0 15px 0
+	.menu ul 
+		top: 130px
+	.article .col-lg-9 .text 
+		font-size: 20px
+	.top-single-post .container .links a:after 
+		padding-left: 5px
+		padding-right: 5px
+	.top-single-post .container .links a 
+		font-size: 14px
+	.top-single-post .container .links 
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+	.article-properties a 
+		font-size: 12px
+	.article-properties a:after 
+		padding-left: 2px
+		padding-right: 2px
+	.article-properties 
+		display: flex
+		flex-wrap: wrap
+	.article-properties-list
+		flex-direction: column
+	.article-properties-list a:after 
+		padding-right: 0px
+		padding-left: 2px
+	.article-properties-list a 
+		font-size: 11.5px
+	.category-header .title-cat  
+		font-size: 46px
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
